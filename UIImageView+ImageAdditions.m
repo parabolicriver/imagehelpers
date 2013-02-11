@@ -1,6 +1,6 @@
 //
 //  UIImageView+ImageAdditions.m
-//  HIIT Stopwatch iPhone
+//  PARImageHelpers
 //
 //  Created by Anuj Seth on 9/8/12.
 //  Copyright (c) 2012 Parabolic River. All rights reserved.
