@@ -20,6 +20,7 @@
 		A070DFD816C91E70007B8F6D /* PARViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A070DFD616C91E70007B8F6D /* PARViewController.xib */; };
 		A070DFE216C91EF0007B8F6D /* UIImageView+ImageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A070DFE116C91EF0007B8F6D /* UIImageView+ImageAdditions.m */; };
 		A070DFE916C91FC3007B8F6D /* UIImage+TintExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A070DFE816C91FC3007B8F6D /* UIImage+TintExtensions.m */; };
+		A070E05F16C929F9007B8F6D /* noun_project_1241.png in Resources */ = {isa = PBXBuildFile; fileRef = A070E05E16C929F9007B8F6D /* noun_project_1241.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		A070DFE116C91EF0007B8F6D /* UIImageView+ImageAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ImageAdditions.m"; sourceTree = "<group>"; };
 		A070DFE716C91FC3007B8F6D /* UIImage+TintExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TintExtensions.h"; sourceTree = "<group>"; };
 		A070DFE816C91FC3007B8F6D /* UIImage+TintExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TintExtensions.m"; sourceTree = "<group>"; };
+		A070E05E16C929F9007B8F6D /* noun_project_1241.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noun_project_1241.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +64,8 @@
 		A070DFAC16C91E70007B8F6D = {
 			isa = PBXGroup;
 			children = (
-				A070DFDE16C91EAA007B8F6D /* UIImage Extensions */,
 				A070DFDF16C91EB5007B8F6D /* UIImageView Extensions */,
+				A070DFDE16C91EAA007B8F6D /* UIImage Extensions */,
 				A070DFC116C91E70007B8F6D /* PARImageHelpers */,
 				A070DFBA16C91E70007B8F6D /* Frameworks */,
 				A070DFB816C91E70007B8F6D /* Products */,
@@ -91,6 +93,7 @@
 		A070DFC116C91E70007B8F6D /* PARImageHelpers */ = {
 			isa = PBXGroup;
 			children = (
+				A070E05D16C929F1007B8F6D /* Images */,
 				A070DFCA16C91E70007B8F6D /* PARAppDelegate.h */,
 				A070DFCB16C91E70007B8F6D /* PARAppDelegate.m */,
 				A070DFD316C91E70007B8F6D /* PARViewController.h */,
@@ -131,6 +134,14 @@
 				A070DFE116C91EF0007B8F6D /* UIImageView+ImageAdditions.m */,
 			);
 			name = "UIImageView Extensions";
+			sourceTree = "<group>";
+		};
+		A070E05D16C929F1007B8F6D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A070E05E16C929F9007B8F6D /* noun_project_1241.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +201,7 @@
 				A070DFD016C91E70007B8F6D /* Default@2x.png in Resources */,
 				A070DFD216C91E70007B8F6D /* Default-568h@2x.png in Resources */,
 				A070DFD816C91E70007B8F6D /* PARViewController.xib in Resources */,
+				A070E05F16C929F9007B8F6D /* noun_project_1241.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
