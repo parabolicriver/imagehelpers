@@ -19,6 +19,7 @@
 		A070DFD516C91E70007B8F6D /* PARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A070DFD416C91E70007B8F6D /* PARViewController.m */; };
 		A070DFD816C91E70007B8F6D /* PARViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A070DFD616C91E70007B8F6D /* PARViewController.xib */; };
 		A070DFE216C91EF0007B8F6D /* UIImageView+ImageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A070DFE116C91EF0007B8F6D /* UIImageView+ImageAdditions.m */; };
+		A070DFE916C91FC3007B8F6D /* UIImage+TintExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A070DFE816C91FC3007B8F6D /* UIImage+TintExtensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		A070DFD716C91E70007B8F6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PARViewController.xib; sourceTree = "<group>"; };
 		A070DFE016C91EE2007B8F6D /* UIImageView+ImageAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ImageAdditions.h"; sourceTree = "<group>"; };
 		A070DFE116C91EF0007B8F6D /* UIImageView+ImageAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ImageAdditions.m"; sourceTree = "<group>"; };
+		A070DFE716C91FC3007B8F6D /* UIImage+TintExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TintExtensions.h"; sourceTree = "<group>"; };
+		A070DFE816C91FC3007B8F6D /* UIImage+TintExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TintExtensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 		A070DFDE16C91EAA007B8F6D /* UIImage Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				A070DFE716C91FC3007B8F6D /* UIImage+TintExtensions.h */,
+				A070DFE816C91FC3007B8F6D /* UIImage+TintExtensions.m */,
 			);
 			name = "UIImage Extensions";
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 				A070DFCC16C91E70007B8F6D /* PARAppDelegate.m in Sources */,
 				A070DFD516C91E70007B8F6D /* PARViewController.m in Sources */,
 				A070DFE216C91EF0007B8F6D /* UIImageView+ImageAdditions.m in Sources */,
+				A070DFE916C91FC3007B8F6D /* UIImage+TintExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
