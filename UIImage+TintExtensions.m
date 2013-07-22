@@ -11,7 +11,12 @@
 @implementation UIImage (TintExtensions)
 
 - (UIImage*)tintedImageUsingColor:(UIColor*)tintColor {
-    UIGraphicsBeginImageContext(self.size);
+    // get the image scale rather than
+    // the screen's since some images may
+    // not have @2x versions
+    CGFloat scale = self.scale;
+    
+    UIGraphicsBeginImageContextWithOptions(self.size, NO, scale);
     
     CGRect drawRect = CGRectMake(0, 0, self.size.width, self.size.height);
     [self drawInRect:drawRect];
